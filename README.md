@@ -7,15 +7,17 @@ Speech Synthesis Component of [Shruti - A Nepali Audiobook Platform](https://git
 The text-to-speech system has two components:
 
 1. **Melspectrogram Generation**
-  -  Finetuning Tacotron2([Shen et.al])(https://arxiv.org/abs/1712.05884) for melspectrogram generation
+  -  Finetuning Tacotron2[(Shen et.al)](https://arxiv.org/abs/1712.05884) for melspectrogram generation
 2. **Vocoder Output**
-  -  Using WaveGLOW([Prenger et.al])(https://arxiv.org/abs/1811.00002) and HifiGAN([Kong et.al])(https://arxiv.org/abs/2010.05646) for vocoder output
+  -  Using WaveGLOW[(Prenger et.al)](https://arxiv.org/abs/1811.00002) and HifiGAN[(Kong et.al)](https://arxiv.org/abs/2010.05646) for vocoder output
+
+<hr>
 
 ### Training Data
 
-- Pretrained Tacotron2 model trained on The LJSpeech Dataset([Ito and Johnson])(https://keithito.com/LJ-Speech-Dataset/)
-- Finetuning Phase 1 - High quality TTS data for Nepali([Sodimana et.al])(https://www.openslr.org/43/)
-- Finetuning Phase 2 - Created own Dataset;Nepali Text-to-Speech Data (Male and Female)([Khadka et.al])(https://openslr.elda.org/143/)
+- Pretrained Tacotron2 model trained on The LJSpeech Dataset[(Ito and Johnson)](https://keithito.com/LJ-Speech-Dataset/)
+- Finetuning Phase 1 - High quality TTS data for Nepali[(Sodimana et.al)](https://www.openslr.org/43/)
+- Finetuning Phase 2 - Created own Dataset;Nepali Text-to-Speech Data (Male and Female)[(Khadka et.al)](https://openslr.elda.org/143/)
 
 
 Find the output samples [here](https://shruti-audios.netlify.app) and the paper [here](https://www.isca-archive.org/sigul_2023/khadka23_sigul.pdf).
