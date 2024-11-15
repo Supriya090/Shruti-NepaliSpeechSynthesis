@@ -1,6 +1,6 @@
 # Shruti - Nepali Speech Synthesis
 
-Speech Synthesis Component of [Shruti - A Nepali Audiobook Platform](https://gitlab.com/shrutiaudio/shrutiapplication)
+Speech Synthesis Component of [Shruti - A Nepali Audiobook Platform](https://gitlab.com/shrutiaudio)
 
 <hr>
 
@@ -20,7 +20,7 @@ The text-to-speech system has two components:
 - Finetuning Phase 2 - Created own Dataset;Nepali Text-to-Speech Data (Male and Female)[(Khadka et.al)](https://openslr.elda.org/143/)
 
 
-Find the output samples [here](https://shruti-audios.netlify.app) and the paper [here](https://www.isca-archive.org/sigul_2023/khadka23_sigul.pdf).
+Find the code [here](https://gitlab.com/shrutiaudio), finetuned model [here](https://gitlab.com/shrutiaudio/shrutiaudio/-/blob/main/Shruti_finetuned?ref_type=heads), output samples [here](https://shruti-audios.netlify.app),  and the paper [here](https://www.isca-archive.org/sigul_2023/khadka23_sigul.pdf).
 
 <hr>
 
